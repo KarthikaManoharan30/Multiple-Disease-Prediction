@@ -38,7 +38,7 @@ The models were trained using datasets for:
 Key steps included:
 * Handling missing data (e.g., imputation).
 * Encoding categorical variables.
-* Feature scaling (e.g., MinMaxScaler, StandardScaler).
+* Feature scaling (e.g., SMOTE, StandardScaler).
 
 ### Model Training
 Separate models were trained for each disease, with cross-validation employed to ensure robustness.
@@ -54,10 +54,6 @@ Performance was assessed using metrics such as:
 * **Frontend Framework:** Streamlit
 
 ## ⚙️ Setup Instructions
-
-### Prerequisites
-* Python 3.7+
-* `pip` package manager
 
 ### Installation
 
